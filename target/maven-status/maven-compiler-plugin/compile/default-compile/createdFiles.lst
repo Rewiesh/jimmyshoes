@@ -1,0 +1,3 @@
+dev\dag\model\Client.class
+dev\dag\service\ClientResource.class
+dev\dag\repository\ClientMemoryRepository.class
