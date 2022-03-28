@@ -1,3 +1,8 @@
 dev\dag\model\Client.class
 dev\dag\service\ClientResource.class
+sr\unasat\jimmyshoes\jpaconfig\JPAConfiguration.class
+sr\unasat\jimmyshoes\Controllers\UserController.class
 dev\dag\repository\ClientMemoryRepository.class
+sr\unasat\jimmyshoes\entities\User.class
+sr\unasat\jimmyshoes\dao\UserDao.class
+sr\unasat\jimmyshoes\application\App.class

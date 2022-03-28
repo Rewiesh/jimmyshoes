@@ -1,6 +1,7 @@
 package sr.unasat.jimmyshoes.entities;
 
 import javax.persistence.*;
+import java.util.Collection;
 
 @Entity(name = "user")
 @Table(name = "users")
@@ -32,6 +33,17 @@ public class User {
     private Integer phoneNumber;
 
     public User() {}
+
+    public User(Long userId, String userName, String passWord, String firstName, String secondName, String lastName, Integer mobileNumber, Integer phoneNumber) {
+        this.userId = userId;
+        this.userName = userName;
+        this.passWord = passWord;
+        this.firstName = firstName;
+        this.secondName = secondName;
+        this.lastName = lastName;
+        this.mobileNumber = mobileNumber;
+        this.phoneNumber = phoneNumber;
+    }
 
     public User(String userName, String passWord, String firstName, String lastName, String secondName, Integer mobileNumber, Integer phoneNumber) {
         this.userName = userName;
@@ -106,4 +118,19 @@ public class User {
     public void setPhoneNumber(Integer phoneNumber) {
         this.phoneNumber = phoneNumber;
     }
+
+    @Override
+    public String toString() {
+        return "User{" +
+                "userId=" + userId +
+                ", userName='" + userName + '\'' +
+                ", passWord='" + passWord + '\'' +
+                ", firstName='" + firstName + '\'' +
+                ", secondName='" + secondName + '\'' +
+                ", lastName='" + lastName + '\'' +
+                ", mobileNumber=" + mobileNumber +
+                ", phoneNumber=" + phoneNumber +
+                '}';
+    }
+
 }

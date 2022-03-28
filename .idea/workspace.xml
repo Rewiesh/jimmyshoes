@@ -5,18 +5,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="12c66bc0-dfc0-4593-96a1-41123f613283" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/JimmyShoes.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/JimmyShoes.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/JimmyShoes.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sr/unasat/jimmyshoes/Controllers/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sr/unasat/jimmyshoes/Controllers/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sr/unasat/jimmyshoes/application/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sr/unasat/jimmyshoes/application/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sr/unasat/jimmyshoes/dao/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sr/unasat/jimmyshoes/dao/UserDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sr/unasat/jimmyshoes/entities/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sr/unasat/jimmyshoes/entities/User.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/sr/unasat/jimmyshoes/application/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/sr/unasat/jimmyshoes/application/App.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/sr/unasat/jimmyshoes/dao/UserDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/sr/unasat/jimmyshoes/dao/UserDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/sr/unasat/jimmyshoes/entities/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/sr/unasat/jimmyshoes/entities/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jimmyshoes-1.0.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/jimmyshoes-1.0.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jimmyshoes-1.0/META-INF/maven/sr.unasat/jimmyshoes/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/jimmyshoes-1.0/META-INF/maven/sr.unasat/jimmyshoes/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jimmyshoes-1.0/WEB-INF/classes/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/jimmyshoes-1.0/WEB-INF/classes/META-INF/persistence.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jimmyshoes-1.0/WEB-INF/lib/javassist-3.18.1-GA.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jimmyshoes-1.0/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/jimmyshoes-1.0/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jimmyshoes-1.0/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/jimmyshoes-1.0/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,6 +33,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="JavaScript File" />
         <option value="HTML File" />
         <option value="Class" />
       </list>
@@ -69,6 +77,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
@@ -89,6 +98,9 @@
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
+    </configuration>
+    <configuration name="JimmyShoes-endpoints_1 | #1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/JimmyShoes-endpoints_1.http" requestIdentifier="#1" runType="Run single request">
+      <method v="2" />
     </configuration>
     <configuration default="true" type="JetRunConfigurationType">
       <module name="jimmyshoes" />
@@ -134,7 +146,13 @@
     <list>
       <item itemvalue="Application.Unnamed" />
       <item itemvalue="Maven.restExample [clean,package,install...]" />
+      <item itemvalue="HTTP Request.JimmyShoes-endpoints_1 | #1" />
     </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="HTTP Request.JimmyShoes-endpoints_1 | #1" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -145,7 +163,7 @@
       <option name="presentableId" value="Default" />
       <updated>1648356191653</updated>
       <workItem from="1648356193199" duration="2810000" />
-      <workItem from="1648407624149" duration="900000" />
+      <workItem from="1648407624149" duration="13358000" />
     </task>
     <servers />
   </component>
