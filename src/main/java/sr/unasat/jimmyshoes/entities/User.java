@@ -3,7 +3,7 @@ package sr.unasat.jimmyshoes.entities;
 import javax.persistence.*;
 import java.util.Collection;
 
-@Entity(name = "user")
+@Entity(name = "User")
 @Table(name = "users")
 public class User {
     @Id
@@ -32,8 +32,10 @@ public class User {
     @Column(name = "telefoonnumber")
     private Integer phoneNumber;
 
+
     public User() {}
 
+    // constructor without usertype
     public User(Long userId, String userName, String passWord, String firstName, String secondName, String lastName, Integer mobileNumber, Integer phoneNumber) {
         this.userId = userId;
         this.userName = userName;
@@ -44,7 +46,7 @@ public class User {
         this.mobileNumber = mobileNumber;
         this.phoneNumber = phoneNumber;
     }
-
+    // constructor without pk and usertype
     public User(String userName, String passWord, String firstName, String lastName, String secondName, Integer mobileNumber, Integer phoneNumber) {
         this.userName = userName;
         this.passWord = passWord;
@@ -53,6 +55,10 @@ public class User {
         this.lastName = lastName;
         this.mobileNumber = mobileNumber;
         this.phoneNumber = phoneNumber;
+    }
+
+    public User(Long userId) {
+        this.userId = userId;
     }
 
     public Long getUserId() {

@@ -4,22 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="12c66bc0-dfc0-4593-96a1-41123f613283" name="Changes" comment="">
+    <list default="true" id="12c66bc0-dfc0-4593-96a1-41123f613283" name="Changes" comment="commit">
       <change beforePath="$PROJECT_DIR$/.idea/JimmyShoes.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/JimmyShoes.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/sr/unasat/jimmyshoes/Controllers/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sr/unasat/jimmyshoes/Controllers/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sr/unasat/jimmyshoes/Controllers/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sr/unasat/jimmyshoes/controllers/UserController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/sr/unasat/jimmyshoes/application/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sr/unasat/jimmyshoes/application/App.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/sr/unasat/jimmyshoes/dao/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sr/unasat/jimmyshoes/dao/UserDao.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/sr/unasat/jimmyshoes/entities/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sr/unasat/jimmyshoes/entities/User.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/sr/unasat/jimmyshoes/application/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/sr/unasat/jimmyshoes/application/App.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/sr/unasat/jimmyshoes/dao/UserDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/sr/unasat/jimmyshoes/dao/UserDao.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/sr/unasat/jimmyshoes/entities/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/sr/unasat/jimmyshoes/entities/User.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/jimmyshoes-1.0.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/jimmyshoes-1.0.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jimmyshoes-1.0/META-INF/maven/sr.unasat/jimmyshoes/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/jimmyshoes-1.0/META-INF/maven/sr.unasat/jimmyshoes/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jimmyshoes-1.0/WEB-INF/classes/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/jimmyshoes-1.0/WEB-INF/classes/META-INF/persistence.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jimmyshoes-1.0/WEB-INF/lib/javassist-3.18.1-GA.jar" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/jimmyshoes-1.0/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/jimmyshoes-1.0/WEB-INF/web.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/jimmyshoes-1.0/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/jimmyshoes-1.0/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
@@ -33,14 +29,23 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="HTML File" />
+        <option value="JavaScript File" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="JpbToolWindowState">
     <option name="myId2FirstActivated">
@@ -87,12 +92,15 @@
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\rramcharan\Documents\MEGAsync\Unasat\5.2 BP\App\App11\JimmyShoes\src\main\webapp" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="sr.unasat.application" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Unnamed">
-    <configuration name="Unnamed" type="Application" factoryName="Application" nameIsGenerated="true">
+  <component name="RunManager" selected="Maven.jimmyshoes [clean,package,install...]">
+    <configuration name="main" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="sr.unasat.jimmyshoes.application.App" />
       <module name="JimmyShoes" />
       <method v="2">
@@ -100,6 +108,9 @@
       </method>
     </configuration>
     <configuration name="JimmyShoes-endpoints_1 | #1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/JimmyShoes-endpoints_1.http" requestIdentifier="#1" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="inventory.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/JimmyShoes/src/main/webapp/inventory.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration default="true" type="JetRunConfigurationType">
@@ -115,7 +126,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="restExample [clean,package,install...]" type="MavenRunConfiguration" factoryName="Maven" nameIsGenerated="true">
+    <configuration name="jimmyshoes [clean,package,install...]" type="MavenRunConfiguration" factoryName="Maven">
       <MavenSettings>
         <option name="myGeneralSettings" />
         <option name="myRunnerSettings" />
@@ -143,13 +154,20 @@
       </MavenSettings>
       <method v="2" />
     </configuration>
+    <configuration name="inventoryModal.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/src/main/webapp/js/inventoryModal.js" working-dir="$PROJECT_DIR$/src/main/webapp/js">
+      <method v="2" />
+    </configuration>
     <list>
-      <item itemvalue="Application.Unnamed" />
-      <item itemvalue="Maven.restExample [clean,package,install...]" />
+      <item itemvalue="Application.main" />
       <item itemvalue="HTTP Request.JimmyShoes-endpoints_1 | #1" />
+      <item itemvalue="Maven.jimmyshoes [clean,package,install...]" />
+      <item itemvalue="Node.js.inventoryModal.js" />
+      <item itemvalue="JavaScript Debug.inventory.html" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.inventory.html" />
+        <item itemvalue="Node.js.inventoryModal.js" />
         <item itemvalue="HTTP Request.JimmyShoes-endpoints_1 | #1" />
       </list>
     </recent_temporary>
@@ -163,22 +181,56 @@
       <option name="presentableId" value="Default" />
       <updated>1648356191653</updated>
       <workItem from="1648356193199" duration="2810000" />
-      <workItem from="1648407624149" duration="13358000" />
+      <workItem from="1648407624149" duration="14879000" />
+      <workItem from="1648508798596" duration="4702000" />
+      <workItem from="1648905186852" duration="10905000" />
+      <workItem from="1650109860702" duration="324000" />
+      <workItem from="1650110527807" duration="37022000" />
     </task>
+    <task id="LOCAL-00001" summary="second commit">
+      <created>1648435395777</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1648435395777</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="dependencySupport" implementationName="java:com.google.protobuf:protobuf-java" />
+    <option featureType="dependencySupport" implementationName="java:javax.persistence:javax.persistence-api" />
+    <option featureType="dependencySupport" implementationName="java:org.hibernate:hibernate-core" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/main" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="second commit" />
+    <MESSAGE value="commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit" />
   </component>
 </project>
